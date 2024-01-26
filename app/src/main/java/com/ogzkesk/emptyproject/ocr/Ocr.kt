@@ -117,6 +117,7 @@ class Ocr private constructor(
 
 
     enum class Language(val lang: String) {
+        // Language only english available for now with [eng.traineddata] in assets.
         EN("eng"),
         TR("tr")
     }
